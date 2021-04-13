@@ -1,10 +1,10 @@
 import React from 'react';
 //import './Card.css';
 
-const Home = (props) => {
+const Search = (props) => {
   return <section className={props.className}>
-  <p>Home</p>
+  <input type='text'></input>
   </section>;
 };
 
-export default Home;
+export default Search;
