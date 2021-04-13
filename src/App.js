@@ -1,7 +1,7 @@
 import './App.css';
-import Header from './features/header/header';
-import Home from './features/home/home';
-import Sidebar from './features/sidebar/sidebar';
+import Header from './components/header/header';
+import Home from './components/home/home';
+
 
 function App() {
   return (
@@ -11,7 +11,6 @@ function App() {
       appName='Breddit'/>
       <main>
         <Home />
-        <Sidebar />
       </main>
     </>
   );
